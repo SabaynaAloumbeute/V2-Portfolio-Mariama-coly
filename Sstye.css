@@ -1,0 +1,239 @@
+/*top bar*/ 
+
+.top-bar {
+    background-color: #6c757d; /* Couleur gris */
+    color: white;
+  }
+  .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .slogan {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    flex-grow: 1;
+  }
+  .social {
+    display:flex;   
+    justify-content: center;
+    margin-right: 3px;
+    height: 30px;;
+    }
+    .iconefacebook{
+        display: flex;
+        position: relative;
+        margin-right: 10px;
+        margin-top: 7px;
+        width: 25px;
+        justify-content: center;
+    }
+    .iconelinkdin{
+        display: flex;
+        position: relative;
+        margin-right: 10px;
+        margin-top: 7px;
+        width: 25px;
+        justify-content: center;
+    }
+/*bar nav*/ 
+.btn-cv:hover {
+    background-color: #b72222; /* Teinte plus foncée au survol */
+  }
+.section1{ background-color: #FAF3DD;
+
+}
+ 
+
+  .nav-item {
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: #D62828;
+  }
+  .nav-item{
+    font-size: 15px;
+    
+  }
+  .nav-link{ color: #000;
+  }
+
+  .nav-link:hover {
+    color: #D62828; /* Couleur des liens au survol */
+    padding: 5px 10px; /* Espacement interne au survol */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transition pour un effet fluide */
+  }
+  /*bouton cv*/ 
+  .btn-cv {
+    background-color: #D62828;
+    color: #fff; 
+font-weight: bold;}
+   
+
+/*herosection*/ 
+
+.hero {
+    background-color: #003049; /* Couleur de fond de la section héro */
+    color: #003049; /* Couleur du texte */
+    padding: 40px 70px;
+  }
+  
+  .hero h1 {
+    font-size: 4rem; /* Taille du titre principal */
+    margin-bottom: 5px; /* Espacement sous le titre */
+    text-align: justify;
+    font-weight: bold;
+    margin-top: -100px;
+  }
+  
+  .hero h2 {
+    font-size: 1.5rem; /* Taille du sous-titre */
+    margin-bottom: 20px; /* Espacement sous le sous-titre */
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .hero-paragraph {
+    max-width: 500px; /* Limite la largeur du paragraphe */
+    margin: 0 auto 30px; /* Centrage du paragraphe avec un espacement en bas */
+    font-size: 1rem; /* Taille du texte */
+    line-height: 1.5; /* Hauteur de ligne pour un espacement agréable entre les lignes */
+    text-align: justify;
+  }
+  .red-line {
+    width: 150px; /* Longueur de la ligne rouge */
+    height: 4px; /* Épaisseur de la ligne */
+    background-color: #D62828; /* Couleur rouge de la ligne */
+    margin: 0px auto 35px; /* Centrage de la ligne et espacement en bas */
+    margin-top: -15px;
+  }
+  
+  .btn-contact {
+    background-color: #D62828; /* Couleur du bouton de contact */
+    color: white;
+    padding: 10px 10px; /* Espacement intérieur */
+    border: none;
+    font-weight: bold;
+    margin-right: 22%;
+
+  }
+  
+  .btn-contact:hover {
+    background-color: #b72222; /* Couleur du bouton au survol */
+
+  }
+  
+  .profile-image {
+    margin-left: 200px;
+  }
+  
+  .profile-image img {
+    width: 370px; /* Largeur de l'image de profil */
+    height: auto; /* Hauteur de l'image de profil */
+    border: 5px solid #D62828; /* Bordure rouge autour de l'image */
+    
+  }
+
+.pencil-img {
+    width: 200px; /* Taille du crayon */
+    height: auto; /* Conserver les proportions */
+    margin-right: none; /* Espacement entre le crayon et le texte */
+ 
+  }
+  .container1{
+    margin-left: 50px;
+  }
+  /* a propos */
+
+  .about-section {
+    padding: 60px 0;
+    background-color: #FAF3DD; /* Couleur de fond selon ta demande */
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .about-text {
+    flex: 1;
+    max-width: 600px; /* Limite la largeur du texte */
+    margin-left: 160px;
+  }
+  
+  .about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #003049; /* Couleur du titre (bleu foncé) */
+  }
+  
+  .about-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333; /* Couleur du texte */
+    text-align: justify; /* Justification du texte */
+    margin-bottom: 15px;
+  }
+  
+  .about-image {
+    flex: 1;
+    max-width: 300px; /* Limite la taille de l'image */
+    margin-right: 150px;
+  }
+  
+  .about-image img {
+    width: 150%;
+    border-radius: 50%; /* Image circulaire */
+    border: 5px solid #D62828; /* Bordure rouge autour de l'image */
+    
+  }
+
+  /* projet*/
+
+  .projects-section {
+    padding: 60px 0;
+    background-color: #FAF3DD;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-left: 600px;
+  }
+  
+  .title-underline {
+    width: 150px; /* Longueur de la ligne rouge */
+    height: 4px; /* Épaisseur de la ligne */
+    background-color: #D62828; /* Couleur rouge de la ligne */
+    margin: 0px auto 35px; /* Centrage de la ligne et espacement en bas */
+    margin-top: -15px;
+  }
+  
+  .project-card {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .project-card img {
+    width: 100%;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover img {
+    transform: scale(1.05); /* Effet de zoom sur le survol */
+  }
+  
+  /* Styles pour les flèches de navigation */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #D62828; /* Flèches rouges */
+    border-radius: 50%;
+    padding: 20px;
+  }
+  
